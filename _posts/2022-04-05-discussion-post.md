@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Discussion Activity
+
 ---
 
 Discussion Activity for today with jekyll by Fuyuki.
