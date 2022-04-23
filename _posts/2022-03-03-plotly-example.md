@@ -6,7 +6,7 @@ title: Plotly Example
 Fortunately, it's pretty easy to embed interactive HTML figures produced via Plotly on your blog. Just use  `plotly.io.write_html()` to save your figure. Then, copy the resulting HTML file to the `_includes` directory of your blog. Finally, place the code  
 
 ```
-{{ "{% include /Users/kobayashifuuki/Desktop/PIC16B/Fuyu-UCLA.github.io/_includes/example_fig.html " }}%}
+{{ "{% include example_fig.html " }}%}
 ```
 
 at the location of your blog at which you would like the figure to appear. Here's an example: 
@@ -23,4 +23,4 @@ write_html(fig, "example_fig.html")
 # manually copy example_fig.html to _includes directory of blog
 ```
 
-{% include /Users/kobayashifuuki/Desktop/PIC16B/Fuyu-UCLA.github.io/_includes/example_fig.html %}
+{% include example_fig.html %}
