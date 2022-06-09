@@ -312,3 +312,6 @@ We also plotted the technology sector in isolation and noticed a curious group o
 ## 3 Conclusion
 
 We found that recurrent neural networks do not work very well on stock data, and that our linear regression model does surprisingly well. On the sentiment side, the plotted results were very much undermined by the lack of time to run full 36,000+ row pulls. The random samples undermined any patterns found within the time series of a particular company for both the sentiment analysis and the neural networks. Ideally, moving forward we would run a complete S&P 500 pull (to avoid potential noise from small-caps), and precluding reports from the period of extreme Fed Quantitative Easing in response to COVID (or isolating and analyzing them separately).  Similarly, we would like to follow through with our original intent to both run a neural network model on  vectorized transcript text and to see the effect of the inclusion of sentiment scores as features within our most successful numeric model. 
+
+
+<h2>github</h2> https://github.com/NicholasDelianedis/PIC16BProject 
